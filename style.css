@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+
+}
+#na{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0 , 0 , 0 , .6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+#navbarResponsive>ul>li>a{
+  color: white;
+  padding-top: .8rem;
+
+}
+#navbarResponsive>ul>li>a.active,#navbarResponsive>ul>li>a:hover{
+color: #1ebba3;
+}
+#one{
+  background-image: url(images/movie.JPG);
+}
+
+@media (max-width: 600px) {
+  .te{
+    color: #fff;
+  }
+
+
+}
+
+/*slide*/
+.carousel-item{
+  height: 100vh;
+}
+.content{
+  margin-top: 300px;
+  text-align: center;
+  color: white;
+}
+.content2{
+  margin-top: 300px;
+  text-align: center;
+  color:white;
+}
+.content3{
+  margin-top: 300px;
+  text-align: center;
+  color: #000;
+}
+#testimonials{
+
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+
+
+}
+.dog{
+  width: 100%;
+}
+.carousel-item{
+  width: 100%;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+}
+/*list*/
+.price{
+  padding: 3% 2%;
+  text-align: center;
+  height: 400px;
+}
+#pricing{
+  padding: 100px;
+}
+.head{
+  padding-top: 70px;
+  text-align: center;
+  color: #42b883;
+}
+.gree{
+
+  border: 5px solid #42b883;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+
+}
